@@ -1,0 +1,8 @@
+- name: Create a dynamic inventory
+  hosts: all
+  tasks:
+    - name: test
+      debug:
+        msg: andrew-cowan.ubvm.nutanix.com
+
+...
