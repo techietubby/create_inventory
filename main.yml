@@ -11,8 +11,8 @@
 
     - name: Creating a file with content
       copy:
-      dest: "inventory"
-      content: |
-        fred-cowan.ubvm.nutanix.com
-        andrew-cowan.ubvm.nutanix.com ansible_python_interpreter=/usr/bin/python3
+        dest: "inventory"
+        content: |
+          fred-cowan.ubvm.nutanix.com
+          andrew-cowan.ubvm.nutanix.com ansible_python_interpreter=/usr/bin/python3
 ...
