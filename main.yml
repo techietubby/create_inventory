@@ -5,4 +5,9 @@
       debug:
         msg: andrew-cowan.ubvm.nutanix.com
 
+          - name: Creating a file with content
+            copy:
+              dest: "inventory"
+              content: |
+                andrew-cowan.ubvm.nutanix.com
 ...
