@@ -12,7 +12,8 @@
 
     - name: Creating a file with content
       copy:
-        dest: "/var/lib/awx/projects/*create_inv_from_playbook/hosts"
+        #dest: "/var/lib/awx/projects/*create_inv_from_playbook/hosts"
+        dest: "hosts"
         mode: "0644"
         content: |
           fred-cowan.ubvm.nutanix.com
