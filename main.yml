@@ -11,7 +11,7 @@
 
     - name: Creating a file with content
       copy:
-        dest: "inventory"
+        dest: "./inventory"
         mode: "0644"
         content: |
           fred-cowan.ubvm.nutanix.com
