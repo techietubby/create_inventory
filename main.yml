@@ -3,6 +3,7 @@
   environment:
     - ANSIBLE_INVENTORY_ENABLED: 'ini'
   tasks:
+    #:x
     - command: "ansible -i /etc/ansible/hosts all --list-hosts -vvvv"
   
     - name: test
