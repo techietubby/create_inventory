@@ -12,6 +12,7 @@
     - name: Creating a file with content
       copy:
         dest: "inventory"
+        mode: "0644"
         content: |
           fred-cowan.ubvm.nutanix.com
           andrew-cowan.ubvm.nutanix.com ansible_python_interpreter=/usr/bin/python3
