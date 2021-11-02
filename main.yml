@@ -13,5 +13,6 @@
       copy:
       dest: "inventory"
       content: |
-        andrew-cowan.ubvm.nutanix.com
+        fred-cowan.ubvm.nutanix.com
+        andrew-cowan.ubvm.nutanix.com ansible_python_interpreter=/usr/bin/python3
 ...
